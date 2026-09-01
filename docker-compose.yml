@@ -5,6 +5,7 @@ services:
     image: deluan/navidrome:latest
     ports:
       - "4533:4533"
+       restart: unless-stopped 
 
     environment:
      # ND_UILOGINBACKGROUNDURL: "https://freeimage.host/i/ui-bg.n9Y5cRj"
