@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    ports:
+      - "4533:4533"
+
+    environment:
+     # ND_UILOGINBACKGROUNDURL: "https://freeimage.host/i/ui-bg.n9Y5cRj"
+      ND_UIWELCOMEMESSAGE: "Welcome to kavinn Music Server"
+      ND_SCANSCHEDULE: 3m
+      ND_LOGLEVEL: info
+      ND_MUSICFOLDER: /music
+      ND_PLAYLISTSPATH: "Playlists"
+
+    volumes:
+      - "./data:/data"
+      - "C:/Users/kavin/OneDrive/Documents/music/music:/music:ro"
+
+      
