@@ -1,5 +1,8 @@
 # 🎵 kavstream
 
+<img width="1743" height="1079" alt="Screenshot 2026-08-31 090335" src="https://github.com/user-attachments/assets/8f62b6cc-8d74-48d1-bee4-8c42be18bd5a" />
+
+
 A self-hosted personal music streaming server powered by [Navidrome](https://www.navidrome.org/) and Docker. Stream your own music library from anywhere, manage playlists, and connect with any Subsonic-compatible app.
 
 ---
